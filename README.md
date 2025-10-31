@@ -1,4 +1,3 @@
-```markdown
 # CLI YT-DLP Bash Script
 
 ## Description
@@ -22,8 +21,7 @@ This repository contains a **bash script** that utilizes **yt-dlp** to download 
   ```bash
   pip install -U yt-dlp
   ```
-
-  or from your distro's official repository
+or from your distro's official repository
 ## Usage
 
 To use the script, follow these instructions:
