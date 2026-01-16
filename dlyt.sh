@@ -92,9 +92,8 @@ downloadwav() {
   fi
 }
 # ping youtube to see if we can reach it
-ping -c 4 "https://www.youtube.com/" >/dev/null 2>&1
 echo "checking Internet connection"
-sleep 2
+ping -c 4 "https://www.youtube.com/" >/dev/null 2>&1
 # Check the exit status of ping
 if [ $? -eq 0 ]; then
   echo -e "\e[1;37;42mSUCCE: Internet connection avilable.\e[0m"
