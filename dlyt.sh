@@ -93,14 +93,15 @@ downloadwav() {
 }
 # ping youtube to see if we can reach it
 echo "checking Internet connection"
-ping -c 4 "https://www.youtube.com/" >/dev/null 2>&1
+# ping -c 4 "https://www.youtube.com/" >/dev/zero 2>&1
+
 # Check the exit status of ping
-if [ $? -eq 0 ]; then
-  echo -e "\e[1;37;42mSUCCE: Internet connection avilable.\e[0m"
-else
-  echo -e "\e[1;37;41mERROR: Internet connection is unavilable. Check you connection and try agine.\e[0m"
-  exit 1
-fi
+# if [ $? -eq 0 ]; then
+#  echo -e "\e[1;37;42mSUCCE: Internet connection avilable.\e[0m"
+# else
+#   echo -e "\e[1;37;41mERROR: Internet connection is unavilable. Check you connection and try agine.\e[0m"
+#   exit 1
+# fi
 
 # Ask the user for a URL or file address
 echo "Give the link or the file address"
