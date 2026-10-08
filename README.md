@@ -1,3 +1,5 @@
+# WARNING: this code is very much shity, ik it
+
 # CLI YT-DLP Bash Script
 
 ## Description
